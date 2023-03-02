@@ -1,5 +1,8 @@
 import express from 'express';
 import { config } from 'dotenv';
+import cors from 'cors';
+
+import recieve from './recieve.js';
 
 config();
 
@@ -15,4 +18,5 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
   console.log(`[server]: Server is running at http://localhost:${port}`);
+  recieve();
 });
