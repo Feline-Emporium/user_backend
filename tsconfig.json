@@ -18,6 +18,6 @@
     "esm": true
   },
   "lib": ["esnext"],
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "include": ["source/**/*.ts", "tests/**/*.ts"],
   "exclude": ["node_modules", ".vscode"]
 }
