@@ -1,9 +1,9 @@
 import http from 'http';
 import bodyParser from 'body-parser';
 import express from 'express';
-import logging from './config/logging';
-import config from './config/config';
-import userRoutes from './routes/user';
+import logging from './source/config/logging';
+import config from './source/config/config';
+import userRoutes from './source/routes/user';
 import mongoose from 'mongoose';
 
 const NAMESPACE = 'Server';
